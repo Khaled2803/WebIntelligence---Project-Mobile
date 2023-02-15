@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Montserrat';
+}
+
+/* SECTION - MOBILE */
+
+.mobile{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* MAIN */
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding-top: 100px;
+}
+
+main h1{
+  font-size: 32px;
+  font-weight: 300;
+  color: #172936;
+}
+
+main h1 span{
+  font-size: 32px;
+  font-weight: 300;
+  color: #FFCD55;
+  font-family: 'Saira';
+}
+
+a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 327px;
+  height: 64px;
+  border-radius: 12px;
+  background: #5669FF;
+  font-size: 16px;
+  font-weight: 900;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+

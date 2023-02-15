@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Montserrat';
+}
+
+.mobile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  gap: 110px;
+}
+
+.mobile-text{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.mobile h1{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #172936;
+  width: 311px;
+  height: 64px;
+}
+
+.mobile p{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  width: 311px;
+  height: 48px;
+  color: #A4A4AA;
+}
+
+.skip{
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 190px;
+  
+}
+
+.buttons a{
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  color: #172936;
+}
+
+.next-btn{
+  display: flex;
+  align-items: center;
+}
+
+#seta{
+  margin-left: -80px;
+}
+
