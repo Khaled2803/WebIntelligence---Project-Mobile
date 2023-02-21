@@ -70,3 +70,70 @@ header{
   border: none;
   background: transparent;
 }
+
+.categoties{
+  display: flex;
+  flex-direction: column;
+}
+
+.categoties-tittle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+  padding: 20px 0;
+}
+
+.categoties-tittle h1{
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(23, 41, 54, 1);
+}
+
+.categoties-cards{
+  display: flex;
+  gap: 15px;
+}
+
+.categoties-card{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 5px 10px;
+  gap: 30px;
+}
+
+#categoties-card-1{
+  width: 106px;
+  height: 105px;
+  border-radius: 12px;
+  border: 2px solid #00A9CE;
+  gap: 45px;
+}
+
+#categoties-card-2{
+  width: 106px;
+  height: 105px;
+  border-radius: 12px;
+  border: 2px solid #6B7AED;
+}
+
+#categoties-card-3{
+  width: 106px;
+  height: 105px;
+  border-radius: 12px;
+  border: 2px solid #FFCD55;
+}
+
+.categoties-card-txt{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.categoties-card-txt h1{
+  font-size: 12px;
+}
+
+.categoties-card-txt p{
+  font-size: 10px;
+}
