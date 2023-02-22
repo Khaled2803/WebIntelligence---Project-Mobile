@@ -80,8 +80,8 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 300px;
-  padding: 20px 0;
+  gap: 270px;
+  padding: 20px 0px;
 }
 
 .categoties-tittle h1{
@@ -92,7 +92,7 @@ header{
 
 .categoties-cards{
   display: flex;
-  gap: 15px;
+  gap: 10px;
 }
 
 .categoties-card{
@@ -136,4 +136,61 @@ header{
 
 .categoties-card-txt p{
   font-size: 10px;
+}
+
+.perfiles-best{
+  display: flex;
+  flex-direction: column;
+}
+
+#perfiles-best-h1{
+ padding: 15px 0;
+ font-size: 14px;
+ font-weight: 700;
+ color: rgba(23, 41, 54, 1);
+}
+
+.perfiles-cards{
+  display: flex;
+  gap: 10px;
+}
+
+.perfile-card{
+  display: flex;
+  flex-direction: column;
+  width: 165px;
+  height: 200px;
+  border-radius: 12px;
+  border: none;
+  background: #CCCCCC;
+  padding: 10px;
+  gap: 100px;
+}
+
+.perfile-card-txt{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.perfile-card-txt h1{
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.perfile-card-txt p{
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.card-txt-1{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.card-txt-1 h1{
+  font-size: 16px;
+  font-weight: 800;
+
 }
