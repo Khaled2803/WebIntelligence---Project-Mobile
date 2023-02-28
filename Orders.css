@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Montserrat';
+}
+
+/* header */
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.header-txt{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-txt h1{
+  font-size: 16px;
+  font-weight: 800;
+  color: rgba(23, 41, 54, 1);
+}
+
+/* category */
+
+.category{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.category-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 248px;
+  height: 56px;
+  border-radius: 12px;
+  background: rgba(86, 105, 255, 1);
+}
+
+.category-btn p{
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.sart{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* cards */
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.card-1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.subcard-1{
+  display: flex;
+  align-items: center;
+  margin-top: -17px;
+  gap: 10px;
+}
+
+.card-text{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-text h1{
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(23, 41, 54, 1);
+  padding-top: 25px;
+}
+
+.subtext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 35px;
+  gap: 5px;
+}
+
+.subtext svg{
+  margin-top: -16px;
+}
+
+.card-2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.text-1 p{
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(23, 41, 54, 1);
+}
+
+.text-1 span{
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(86, 105, 255, 1);
+}
+
+.text-2 p{
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(164, 164, 170, 1);
+}
+
+.text-2 span{
+  font-weight: bold;
+  color: rgba(23, 41, 54, 1);
+}
